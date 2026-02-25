@@ -1,0 +1,12 @@
+@if(countryResource.error()){
+<not-found />
+}
+@if (countryResource.isLoading()) {
+<div class="flex items-center justify-center min-h-[60vh] ">
+  <loader />
+</div>
+}
+
+@if(countryResource.hasValue() && !countryResource.error()){
+ <country-information [country] = "countryResource.value()!"/>
+}

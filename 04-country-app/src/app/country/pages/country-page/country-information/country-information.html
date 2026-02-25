@@ -1,0 +1,46 @@
+<div class="flex flex-col items-center gap-6">
+
+  <div class="stats shadow">
+    <div class="stat">
+      <div class="stat-figure text-secondary">
+        <div class="avatar">
+          <div class="w-16 rounded-full">
+            <img [src]="country().flagSvg" />
+          </div>
+        </div>
+      </div>
+      <div class="stat-value text-primary">{{country().cca2}}</div>
+      <div class="stat-title">{{country().officialName }}</div>
+      <div class="stat-desc">{{country().commonName }}</div>
+    </div>
+
+    <div class="stat">
+      <div class="stat-figure text-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+          class="inline-block h-8 w-8 stroke-current fill-current">
+          <!-- ... tus paths ... -->
+        </svg>
+      </div>
+      <div class="stat-title">Población</div>
+      <div class="stat-value text-primary">{{country().population | number}}</div>
+      <div class="stat-desc"></div>
+    </div>
+
+    <div class="stat">
+      <div class="stat-figure text-secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+          class="inline-block h-8 w-8 stroke-current fill-current">
+          <!-- ... tus paths ... -->
+        </svg>
+      </div>
+      <div class="stat-title">Capital</div>
+      <div class="stat-value text-secondary">{{country().capital}}</div>
+      <div class="stat-desc">21% more than last month</div>
+    </div>
+  </div>
+
+  <a (click)="goBack()" class="btn link-primary cursor-pointer">
+    Regresar
+  </a>
+
+</div>

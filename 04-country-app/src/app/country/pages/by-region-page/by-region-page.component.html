@@ -1,0 +1,8 @@
+<section class="flex w-full gap-5 m-2">
+
+  @for(r of regions; track r){
+  <button class="btn btn-outline cursor-pointer flex-1 basis-0 min-w-0" (click)="selectedRegion.set(r)" [class.btn-primary] = "selectedRegion()=== r">{{r}} </button>
+    }
+
+</section>
+<country-list [countries]="regionResource.value() ?? []" [isEmpty]="regionResource.hasValue() && regionResource.value()?.length === 0" [isLoading]="regionResource.isLoading()" [errorMessage]=" regionResource.error()"></country-list>
