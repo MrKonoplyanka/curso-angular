@@ -2,30 +2,37 @@
 
 Repositorio que recoge mi práctica y consolidación técnica tras completar el curso:
 
-**Angular de Cero a Experto – Angular 19+ (Udemy)**  
+**Angular: De Cero a Experto – Edición 2025 (Angular 19+)**  
+Instructor: Fernando Herrera – DevTalles  
 ⭐ +69.000 estudiantes  
 🎥 33,5 horas de contenido  
 📚 344 clases  
 🌍 Idioma: Español  
-🎓 Certificado de finalización  
-👉 https://www.udemy.com/share/1041gS3@sWGvQxqRLefNUDrw_W8M7qwhCae4pWjBLbSirN67nxDUDPgkrRV13Y2K5nCcN-PsCA==/
 
-Curso completamente renovado con arquitectura moderna basada en Signals, Standalone Components y preparación para Angular zoneless.
+👉 Curso: https://www.udemy.com/share/1041gS3@sWGvQxqRLefNUDrw_W8M7qwhCae4pWjBLbSirN67nxDUDPgkrRV13Y2K5nCcN-PsCA==/
 
 ✔ Curso completado.
+
+Este curso fue completamente renovado para adaptarse a la arquitectura moderna de Angular basada en:
+
+- Signals
+- Standalone Components
+- Preparación para Angular Zoneless
+- Nueva sintaxis y patrones recomendados por el framework
+
+El objetivo no fue únicamente finalizar el curso, sino aplicar estándares modernos y buenas prácticas alineadas con el desarrollo profesional.
 
 ---
 
 ## 🎯 Competencias desarrolladas
 
-Durante el curso se han trabajado en profundidad:
-
-### 🧱 Fundamentos
+### 🧱 Fundamentos sólidos
 - TypeScript moderno
-- Componentes y arquitectura modular
+- Arquitectura basada en componentes
 - Servicios e inyección de dependencias
 - Comunicación entre componentes
-- Pipes y transformaciones
+- Pipes personalizados y built-in
+- Gestión de estado básica
 
 ---
 
@@ -33,39 +40,43 @@ Durante el curso se han trabajado en profundidad:
 - Rutas y rutas hijas
 - Lazy Loading
 - Guards y protección de rutas
-- Autenticación con JWT
 - Interceptores HTTP
+- Autenticación con JWT
 
 ---
 
 ### ⚡ Angular moderno (19+)
 - Standalone Components
 - Signals
-- Writable / Computed / Input / Output Signals
+- Writable Signals
+- Computed Signals
+- Input / Output Signals
 - LinkedSignals
 - Effects
 - Deferrable Views
-- Resource / RxResource
 - Triggers
+- Resource / RxResource
 
 ---
 
-### 🌐 Integración con Backend
+### 🌐 Integración con backend
 - Consumo de APIs REST
 - CRUD completo
-- Manejo de estados
+- Manejo de errores
 - Autenticación robusta
-- Gestión de errores
+- Integración con Node y backend NestJS
 
 ---
 
 ### 🗺 Integraciones y producción
 - Mapas
-- Librerías externas (Angular y no Angular)
-- Tailwind y Bootstrap
+- Librerías Angular y no Angular
+- Tailwind
+- Bootstrap
 - SPA
+- Git y GitHub
 - Despliegue a producción
-- Buenas prácticas y estándares oficiales
+- Optimización y estándares recomendados
 
 ---
 
@@ -104,6 +115,7 @@ Durante el curso se han trabajado en profundidad:
 - REST APIs
 
 ---
+
 ## 🎓 Certificación
 
 Angular: De Cero a Experto – Edición 2025  
@@ -113,14 +125,16 @@ Duración: 33,5 horas
 Certificado verificable:  
 https://ude.my/UC-33701b4b-f5ad-4578-befb-d51e32300d7a
 
+---
+
 ## 📈 Aplicación profesional
 
-Los conocimientos adquiridos en este curso refuerzan mi experiencia en:
+Los conocimientos adquiridos refuerzan mi experiencia en:
 
 - Arquitectura frontend escalable
-- Optimización y rendimiento
-- Integración avanzada con backend
+- Optimización de rendimiento
 - Migraciones entre versiones Angular
+- Integración avanzada con backend
 - Desarrollo de aplicaciones empresariales
 
 Este repositorio forma parte de mi roadmap como Frontend Developer y consolida el uso de estándares modernos del framework.
