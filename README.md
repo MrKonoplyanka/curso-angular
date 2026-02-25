@@ -104,6 +104,14 @@ Durante el curso se han trabajado en profundidad:
 - REST APIs
 
 ---
+## 🎓 Certificación
+
+Angular: De Cero a Experto – Edición 2025  
+Fecha: 11 de noviembre de 2025  
+Duración: 33,5 horas  
+
+Certificado verificable:  
+https://ude.my/UC-33701b4b-f5ad-4578-befb-d51e32300d7a
 
 ## 📈 Aplicación profesional
 
